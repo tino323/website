@@ -40,12 +40,21 @@
 
     .my-box {
       background-color: #ffffff;
-      border: 3px border #273cc6;   /* <- try: dotted, dashed, a new colour */
+      border: 3px dotted #273cc6;   /* <- try: dotted, dashed, a new colour */
       border-radius: 40px;         /* <- try 0 for sharp corners, 40 for round */
       padding: 20px;
       margin: 20px auto;
       max-width: 400px;
     }
+    .m-box {
+      background-color: #ffffff;
+      border: 3px solid #273cc6;   /* <- try: dotted, dashed, a new colour */
+      border-radius: 40px;         /* <- try 0 for sharp corners, 40 for round */
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 400px;
+    }
+
 
     /* This styles the list of things you like. */
     .my-list {
@@ -100,7 +109,7 @@
   <button onclick="openrikroll()">Click Me to!</button>
   <button onclick="hello67()">Do Not Click Me!</button>
   <button onclick="code()">code!!</button>
-    <div class="my-box">
+    <div class="m-box">
       <button onclick="coe()">sourse code (copy the code)</button>
   <!-- ================== JAVASCRIPT LIVES HERE ================== -->
   <!-- JS = the MUSCLES. This is what makes the page DO something. -->
